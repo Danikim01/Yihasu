@@ -1,0 +1,14 @@
+{
+    "home":{
+        "primary-heading":"PUREZA GARANTIZADA",
+        "primary-text":"Agua pura, tu eleccion segura",
+        "contact-us-button":"Contactanos"
+    },
+    "navbar":{
+        "home":"Inicio",
+        "about-us":"Nosotros",
+        "contact-us":"Contacto",
+        "faq":"Preguntas Frecuentes",
+        "translate":"Traducir"
+    }
+}

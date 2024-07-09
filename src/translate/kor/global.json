@@ -1,0 +1,14 @@
+{
+    "home":{
+        "primary-heading":"primary heading en coreano",
+        "primary-text":"otro texto en coreano",
+        "contact-us-button":"iolakjuseo"
+    },
+    "navbar":{
+        "home":"keke",
+        "about-us":"asdfasdf",
+        "contact-us":"asdfasd",
+        "faq":"asdwsvaw",
+        "translate":"vvvvv"
+    }
+}
