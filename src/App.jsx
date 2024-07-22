@@ -10,7 +10,7 @@ import ShakeIcon from "./Components/ShakeIcon";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Yihasu">
       <div className="App">
         <Navbar />
         {/* <a href="https://wa.me/1161350021" target="_blank" className="float">

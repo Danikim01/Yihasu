@@ -1,6 +1,7 @@
 {
   "name": "yihasu",
   "private": true,
+  "homepage": "https://danikim01.github.io/Yihasu",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
