@@ -17,11 +17,11 @@ const Home = () => {
             {t("home.primary-heading")}
           </h1>
           <p className="primary-text">
-            Agua pura, tu eleccion segura
+            {t("home.primary-text")}
           </p>
           <Link to="/contacto" style={{textDecoration:"none"}}>
           <button className="secondary-button">
-              Contactanos ! <FiArrowRight />{" "}
+            {t("home.contact-us-button")} <FiArrowRight />{" "}
           </button>
           </Link>
         </div>

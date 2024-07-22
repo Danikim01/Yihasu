@@ -1,14 +1,14 @@
 {
     "home":{
-        "primary-heading":"primary heading en coreano",
-        "primary-text":"otro texto en coreano",
-        "contact-us-button":"iolakjuseo"
+        "primary-heading":"물의 순도 보장",
+        "primary-text":"순수한 물, 당신의 안전한 선택",
+        "contact-us-button":"연락하기"
     },
     "navbar":{
-        "home":"keke",
-        "about-us":"asdfasdf",
-        "contact-us":"asdfasd",
-        "faq":"asdwsvaw",
-        "translate":"vvvvv"
+        "home":"홈",
+        "about-us":"우리에 대해",
+        "contact-us":"연락",
+        "faq":"자주 묻는 질문",
+        "translate":"Traducir/번역"
     }
 }

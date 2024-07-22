@@ -28,12 +28,16 @@ const Work = () => {
       </div>
       <div className="work-section-bottom">
         {workInfoData.map((data) => (
-          <div className="work-section-info" style={{backgroundColor:data.background,color:"#fff",fontSize:"20px"}} key={data.title} >
+          <div className="work-section-info" style={{backgroundColor:data.background,color:"#fff",fontSize:"20px"}} key={data.title}>
             <div className="info-boxes-img-container">
               <img src={data.image} alt="" style={{width:"100%",height:"100%",color:"#fff"}} />
             </div>
-            <h2>{data.title}</h2>
-            <p>{data.text}</p>
+            <div>
+              <h2 className="responsive-title">{data.title}</h2>
+            </div>
+            <div>
+              <p>{data.text}</p>
+            </div>
           </div>
         ))}
       </div>

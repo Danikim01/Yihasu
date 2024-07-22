@@ -24,7 +24,7 @@ const items = [
 ];
 const Faq = () => {
     return (
-        <div className="faq-page-wrapper" style={{marginTop:"3rem",backgroundColor:"#EEF5FF",padding:"20px",height:"70vh"}}>
+        <div className="faq-page-wrapper" style={{marginTop:"3rem",backgroundColor:"#EEF5FF",padding:"20px",height:"90vh"}}>
             <h1 className="primary-heading" style={{marginBottom:"3rem",textAlign:"center"}}>Preguntas Frecuentes</h1>
             <div className="faq-accordion">
                 <Collapse accordion items={items} size='large'/>
