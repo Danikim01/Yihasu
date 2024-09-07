@@ -40,8 +40,8 @@ const items = [
 
 const Faq = () => {
   return (
-    <div className="faq-page-wrapper" style={{ marginTop: "3rem", backgroundColor: "#EEF5FF", padding: "20px", height: "100vh" }}>
-      <h1 className="primary-heading" style={{ marginBottom: "3rem", textAlign: "center" }}>Preguntas Frecuentes</h1>
+    <div className="faq-page-wrapper" style={{ marginTop: "3rem", backgroundColor: "#EEF5FF", padding: "20px"}}>
+      <h1 className="primary-heading" style={{ marginLeft:"2rem",marginTop:"1rem", marginBottom: "3rem", textAlign: "center" }}>Preguntas Frecuentes</h1>
       <div className="faq-accordion">
         <Collapse accordion items={items} size='large' />
       </div>
