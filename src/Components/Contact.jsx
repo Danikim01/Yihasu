@@ -36,7 +36,7 @@ const Contact = () => {
         <div className="contact-section-info">
           <span className="info-boxes-img-container"><EmailIcon style={{width:"50px",height:"50px"}}/></span>
           <h1>Email</h1>
-          <p>unemail@gmail.com</p>
+          <p>info@yihasu.com</p>
         </div>
       </div>
     </div>

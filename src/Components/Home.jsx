@@ -32,28 +32,44 @@ const Home = () => {
         
         <div className="our-services" data-aos="fade-up"
      data-aos-duration="3000" style={{marginTop:"6rem",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-          <h3 className="primary-heading" style={{fontSize:"35px",textAlign:"center"}}>
-              Como funciona nuestro servicio
+          <h3 className="primary-heading">
+              Cómo funciona nuestro servicio
           </h3>
-          <div className="service-point-container" style={{ display: "flex", width: "100%", alignItems: "center", justifyContent: "space-around", marginTop: "3.5rem"}}>
+          <div className="service-point-container" style={{ display: "flex", width: "100%", height: "100%", alignItems: "center", gap: "20px", justifyContent: "center", marginTop: "3.5rem"}}>
             <div className="section-1">
               <div className="service-point">
                 <img src="checkmark.jpg" alt=""/>
-                <p className="custom-list-item">Agua pura y segura</p>
+                <div className="service-description">
+                  <h4>Calidad certificada:</h4>
+                  <br />
+                  <p className="custom-list-item">Cumplimos con las Normas del Código Alimentario para Consumo Seguro.</p>
+                </div>
               </div>
               <div className="service-point">
                 <img src="checkmark.jpg" alt="" />
-                <p className="custom-list-item">Agua pura y segura</p>
+                <div className="service-description">
+                  <h4>Especialistas en todo tipo de tratamiento:</h4>
+                  <br />
+                  <p className="custom-list-item">Óptimos resultados de laboratorio, garantizando agua confiable y de alta competitividad.</p>
+                </div>
               </div>
             </div>
             <div className="section-1">
               <div className="service-point">
                   <img src="checkmark.jpg" alt="" />
-                  <p className="custom-list-item">Agua pura y segura</p>
+                  <div className="service-description">
+                    <h4>Líderes en Soluciones de Agua para un Futuro Sustentable</h4>
+                    <br />
+                    <p className="custom-list-item">Cumplimos con las Normas del Código Alimentario para Consumo Seguro.</p>
+                  </div>
                 </div>
               <div className="service-point">
                 <img src="checkmark.jpg" alt="" />
-                <p className="custom-list-item">Agua pura y segura</p>
+                <div className="service-description">
+                  <h4>Eficiencia garantizada:</h4>
+                  <br />
+                  <p className="custom-list-item">Seguridad y preservación del agua, brindando una gama completa de soluciones para su tratamiento y cuidado.</p>
+                </div>
               </div>
             </div>
           </div>

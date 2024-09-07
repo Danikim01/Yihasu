@@ -16,7 +16,7 @@ function App() {
         {/* <a href="https://wa.me/1161350021" target="_blank" className="float">
           <WhatsApp id="fa-wpp" style={{fontSize:"70px"}}/>
         </a> */}
-        <ShakeIcon/>
+        <ShakeIcon />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/contacto" element={<Contact />}></Route>

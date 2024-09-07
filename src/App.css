@@ -103,7 +103,8 @@
     align-items: flex-start;
   }
   .primary-heading {
-    font-size: clamp(2rem, 5vw, 4rem);
+    font-size: 45px;
+    text-align: center;
     color: #4c4c4c;
     line-height: 5rem;
     font-weight: bolder;
@@ -118,7 +119,7 @@
   }
   .secondary-button {
     padding: 1rem 2.5rem;
-    background-color: #B4D4FF;
+    background-color: #86B6F6;
     outline: none;
     border: none;
     border-radius: 5rem;
@@ -136,7 +137,7 @@
     font-size: 1.5rem;
   }
   .secondary-button:hover {
-    background-color: #86B6F6;
+    background-color: #1967cd;
   }
   .about-section-container {
     margin-top: 10rem;
@@ -316,8 +317,17 @@
     transition: all 0.5s ease;
   }
 
+
   .work-section-info p{
     max-width: 300px;
+  }
+
+  .work-section-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
   }
 
   @media (max-width: 1000px) {
@@ -330,6 +340,10 @@
     .work-section-info{
       width: 80%;
       height: 100%;
+    }
+
+    .work-section-text{
+      max-width: 80%;
     }
 
     .footer-section-one{
@@ -415,6 +429,8 @@
       max-width: 600px;
     }
   }
+
+
   @media (max-width: 800px) {
     /* .nav-logo-container {
       max-width: 140px;
@@ -518,6 +534,16 @@
       max-width: 95vw;
     }
   }
+
+
+
+  @media(max-width:1024px){
+    .primary-heading{
+      font-size: 28px;
+    }
+  
+  }
+
   @media (max-width: 600px) {
     .home-bannerImage-container,
     .about-background-image-container {
@@ -598,11 +624,13 @@
 .our-services .section-1{
   display: flex;
   flex-direction: column;
+  gap: 50px;
 }
 
 .service-point{
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .service-point img{
@@ -610,6 +638,17 @@
   height: 50px;
   object-fit: contain;
 }
+
+
+/* .service-point-container{
+  display: flex;
+  margin-top: 3.5rem;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+
+} */
 
 @media (max-width:1000px){
   .service-point-container{
@@ -619,8 +658,17 @@
     align-items: center;
   }
 
+
   .service-point{
     gap: 30px;
+  }
+
+  .service-point img{
+    display: none;
+  }
+
+  .service-point .custom-list-item{
+    max-width: 100%;
   }
 
 }
@@ -644,4 +692,16 @@
   .responsive-title {
     font-size: 20px;
   }
+}
+
+.service-description{
+  margin-top: 10px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  max-width: 50%;
 }
